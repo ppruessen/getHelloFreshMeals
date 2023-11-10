@@ -1,0 +1,83 @@
+{
+	"common": {
+		"name": "hellofresh-receipe-vote",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Hellofresh Receipe Vote",
+		"titleLang": {
+			"en": "Hellofresh Receipe Vote",
+			"de": "Abstimmung über Hellofresh-Rezepte",
+			"ru": "Рецепт Hellofresh Голосование",
+			"pt": "Votação da receita Hellofresh",
+			"nl": "Stem op Hellofresh-ontvangst",
+			"fr": "Vote pour les recettes Hellofresh",
+			"it": "Votazione della ricetta Hellofresh",
+			"es": "Votación de recetas de Hellofresh",
+			"pl": "Głosowanie na przepis Hellofresh",
+			"uk": "Hellofresh Receipe Vote",
+			"zh-cn": "Hellofresh 收据投票"
+		},
+		"desc": {
+			"en": "Shows the Hellofresh receipes for the next weeks and lets you vote for the receipes to choose.",
+			"de": "Zeigt die Hellofresh-Rezepte der nächsten Wochen an und lässt Sie für die Rezepte Ihrer Wahl abstimmen.",
+			"ru": "Показывает рецепты Hellofresh на следующие недели и позволяет вам проголосовать за выбранные рецепты.",
+			"pt": "Mostra as receitas do Hellofresh para as próximas semanas e permite votar nas receitas que você escolher.",
+			"nl": "Toont de Hellofresh-recepten voor de komende weken en laat je stemmen op de recepten die je kiest.",
+			"fr": "Affiche les recettes Hellofresh des prochaines semaines et vous permet de voter pour les recettes à choisir.",
+			"it": "Mostra le ricette Hellofresh per le prossime settimane e ti consente di votare le ricette da scegliere.",
+			"es": "Muestra las recetas de Hellofresh de las próximas semanas y te permite votar las recetas a elegir.",
+			"pl": "Pokazuje przepisy Hellofresh na najbliższe tygodnie i umożliwia głosowanie na przepisy do wyboru.",
+			"uk": "Показує рецепти Hellofresh на наступні тижні та дозволяє голосувати за рецепти на вибір.",
+			"zh-cn": "显示接下来几周的 Hellofresh 收据，并让您投票选出要选择的收据。"
+		},
+		"authors": ["dactylo <p.pruessen@gmx.de>"],
+		"keywords": ["hellofresh"],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "hellofresh-receipe-vote.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/ppruessen/ioBroker.hellofresh-receipe-vote/main/admin/hellofresh-receipe-vote.png",
+		"readme": "https://github.com/ppruessen/ioBroker.hellofresh-receipe-vote/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "date-and-time",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.28"
+			}
+		]
+	},
+	"native": {
+		"URL": "https://www.hellofresh.de/menus/",
+		"Klasse": "div.web-26xi0f",
+		"NumWeeks": 4
+	},
+	"objects": [],
+	"instanceObjects": []
+}

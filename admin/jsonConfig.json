@@ -1,0 +1,32 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"URL": {
+			"type": "text",
+			"label": "URL",
+			"help": "The URL to the HelloFresh Receipes",
+			"sm": 12,
+			"md": 6,
+			"lg": 6
+		},
+		"Klasse": {
+			"type": "text",
+			"label": "Klasse",
+			"help": "The Class in which the receipes are located",
+			"sm": 12,
+			"md": 6,
+			"lg": 6
+		},
+		"NumWeeks": {
+			"type": "number",
+			"min": 1,
+			"max": 4,
+			"label": "weeks",
+			"help": "How many weeks in advance you want to see the menu",
+			"sm": 12,
+			"md": 6,
+			"lg": 6
+		}
+	}
+}
